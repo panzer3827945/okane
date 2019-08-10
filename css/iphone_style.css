@@ -1,0 +1,83 @@
+@media screen and (max-width: 600px) {
+	.item  > div{
+	width: 25px;
+	height: 25px;
+	border:dashed #999999 3px;
+	border-radius: 99px;
+	display: inline-block;
+	background-color: #FFF;
+	color: #999999;
+	font-size: 15px;
+	text-align: center;
+	line-height: 28px;
+	margin-right: 10px;
+    }
+    .item  > .kawaru{
+	background-color: #5CADE1;
+	color:#FFF;
+	border:none;
+	width: 28px;
+	height: 28px;
+}
+
+	.header > .item{
+	height: 45px;
+	width: 150px;	
+	margin-left:4%; 
+	font-size: 15px;
+	color: #999999;}
+
+.submenu{
+	max-width: 1600px;
+	width: 100%;
+	max-height: 400px;
+	height: 100%;
+	display: flex;
+    flex-direction: center ;
+    align-items:center;
+      flex-wrap: wrap;
+      margin-top: 3%;
+    
+}
+.mono{
+	background-color: #EBF5FB;
+	width: calc(50% - 40px);
+	height: 100%;
+	margin-left: 10px;
+	display: flex; 
+    justify-content:center;
+    padding: 2%;
+}
+
+
+
+
+.submenu_two{
+	max-width: 1600px;
+	width: 100%;
+	max-height:500px;
+	height: 100%;
+	display: flex;
+    flex-direction: center;
+    align-items:center;
+     flex-wrap: wrap;
+       margin-top: 3%;
+    
+}
+ .mono_two{
+	background-color: #EBF5FB;
+	width: calc(50% - 40px);
+	height:176px;
+	margin-left: 10px;
+	display: flex; 
+    justify-content:center;
+    padding: 2%;
+    font-size: 35px;
+    color: #5CADE1;
+    margin-top: 6%;
+
+   
+}
+
+
+};
